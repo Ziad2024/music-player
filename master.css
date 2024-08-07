@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: #191919;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.music{
+    text-align: center;
+    width: 300px;
+    background-color:rgba(255, 182, 193, 0.904) ;
+    padding: 15px;
+}
+.music nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.music nav i{
+    width: 20px;
+    height: 20px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    color: pink;
+}
+.music .img{
+    margin: auto;
+    width: 150px;
+}
+img{
+    border: 6px solid white;
+    border-radius: 50%;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 100;
+}
+p{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.music #range{
+    -webkit-appearance:none;
+    height: 6px;
+    border-radius: 6px;
+    width: 100%;
+    background-color: #f53192;
+    cursor: pointer;
+}
+.music #range::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #f53192;
+    border: 6px solid white;
+    cursor: pointer;
+}
+.options{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.options div{
+    margin:  20px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+    color: pink;
+    cursor: pointer;
+}
+.options div:nth-child(2){
+    transform: scale(1.5);
+    background-color:#f53192;
+    color: white;
+}
